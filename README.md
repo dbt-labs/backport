@@ -1,3 +1,7 @@
+## ⭐ Customized Fork
+We customized this fork to [specifically change the default source branch name](https://github.com/dbt-labs/backport/commit/db603f21b7560782bf420168409d199161f735f5) for our needs. We use a branch protection policy that conflicted with this naming convention. 
+
+## Readme 
 Backport is a [JavaScript GitHub Action](https://help.github.com/en/articles/about-actions#javascript-actions) to backport a pull request by simply adding a label to it.
 
 It can backport [rebased and merged](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-request-merges#rebase-and-merge-your-pull-request-commits) pull requests with a single commit and [squashed and merged](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-request-merges#squash-and-merge-your-pull-request-commits) pull requests.
