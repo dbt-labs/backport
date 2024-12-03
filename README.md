@@ -1,3 +1,15 @@
+# ***Archival Notice***
+This repository has been archived.
+
+As a result all of its historical issues and PRs have been closed.
+
+Please *do not clone* this repo without understanding the risk in doing so:
+- It may have unaddressed security vulnerabilities
+- It may have unaddressed bugs
+
+<details>
+   <summary>Click for historical readme</summary>
+
 ## ⭐ Customized Fork
 We customized this fork to [specifically change the default source branch name](https://github.com/dbt-labs/backport/commit/db603f21b7560782bf420168409d199161f735f5) for our needs. We use a branch protection policy that conflicted with this naming convention. 
 
@@ -20,3 +32,4 @@ It thus integrates well with [Autosquash](https://github.com/marketplace/actions
 
 _Note:_ multiple backport labels can be added.
 For example, if a pull request has the labels `backport staging` and `backport production` it will be backported to both branches: `staging` and `production`.
+
